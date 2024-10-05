@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Link from 'next/link';
 import { getAllProductAction } from "./actions/service/productApi";
 
+
 // SEO bang Metadata
 export const metadata = {
   title: "Shoes App - Home",

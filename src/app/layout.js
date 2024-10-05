@@ -4,6 +4,7 @@ import "./globals.css";
 import {Roboto,Inner} from 'next/font/google'
 import HeaderHome from './components/HeaderHome';
 
+
 const roboto = Roboto({subsets:['latin'], weight:['300','400','700']});
 // const inner = Inner({subsets:['latin'], weight:['300','400','700']});
 
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* Thêm Bootstrap CSS từ CDN */}
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossOrigin="anonymous"></link>
+        <link rel="canonical" href='https://shoeshop-teal.vercel.app'/>
       </head>
       {/* <body className={`${geistSans.variable} ${geistMono.variable}`}> */}
       <body className={`${roboto.className} ${geistSans.variable} ${geistMono.variable}`}>
