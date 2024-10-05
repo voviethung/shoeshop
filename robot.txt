@@ -1,5 +1,0 @@
-# robots.txt for your domain
-User-agent: *
-Disallow: /admin/
-Allow: /
-Sitemap: https://shoeshop-teal.vercel.app/sitemap.xml

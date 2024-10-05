@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /secret-page
+
+# Host
+Host: https://shoeshop-teal.vercel.app
+
+# Sitemaps
+Sitemap: https://shoeshop-teal.vercel.app/sitemap.xml
